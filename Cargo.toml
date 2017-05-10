@@ -1,0 +1,11 @@
+[package]
+name = "twitch-announce"
+version = "0.1.0"
+authors = ["Justin Fitzsimmons <justin@fitzsimmons.ca>"]
+
+[dependencies]
+
+
+[[bin]]
+name = "twitch-announce-slack"
+path = "bin/twitch-announce-slack.rs"
